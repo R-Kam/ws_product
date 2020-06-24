@@ -15,7 +15,7 @@ import javax.validation.constraints.NotNull;
 @Entity
 public class Product {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     Integer productId;
 
     @NotBlank(message = "product.productName.notblank")
