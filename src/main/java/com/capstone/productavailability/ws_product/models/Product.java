@@ -21,13 +21,10 @@ public class Product {
     @NotBlank(message = "product.productName.notblank")
     String productName;
 
+    @NotNull(message = "department.deptId.notNull")
     Integer deptId;
 
     @NotBlank(message = "department.name.notblank")
     String deptName;
 
-//    @NotNull(message = "product.deptId.notblank")
-//    @ManyToOne(fetch = FetchType.EAGER, optional = false)
-//    @JoinColumn(name="deptId", nullable=false)
-//    Department department;
 }

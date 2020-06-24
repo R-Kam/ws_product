@@ -1,8 +1,6 @@
 package com.capstone.productavailability.ws_product.controllers;
 
-import com.capstone.productavailability.ws_product.models.Department;
 import com.capstone.productavailability.ws_product.models.Product;
-import com.capstone.productavailability.ws_product.services.DepartmentService;
 import com.capstone.productavailability.ws_product.services.ProductService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +28,7 @@ public class ProductController {
             return new ResponseEntity<>(dept, HttpStatus.CREATED);
         }
         else {
-            log.error("Department not saved : {}", product);
+            log.error("Product not saved : {}", product);
             return new ResponseEntity<>(product,HttpStatus.BAD_REQUEST);
         }
     }

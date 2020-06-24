@@ -1,0 +1,11 @@
+insert into PRODUCT (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('1','Prod Test 1', '1', 'Stark');
+insert into PRODUCT (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('2', 'Prod Test 2', '1', 'Stark');
+insert into PRODUCT (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('3', 'Prod Test 3', '1', 'Stark');
+insert into PRODUCT (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('4', 'Prod Test 4', '1', 'Stark');
+insert into PRODUCT (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('5', 'Prod Test 5', '1', 'Stark');
+insert into PRODUCT (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('6', 'Prod Test 1', '2', 'Lanister');
+insert into PRODUCT (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('7', 'Prod Test 2', '2', 'Lanister');
+insert into PRODUCT (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('8', 'Prod Test 3', '2', 'Lanister');
+insert into PRODUCT (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('9', 'Prod Test 4', '2', 'Lanister');
+insert into product (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('10', 'Prod Test 1', '3', 'Barateon');
+insert into product (PRODUCT_ID, PRODUCT_NAME, DEPT_ID, DEPT_NAME) values ('11', 'Prod Test 2', '3', 'Barateon');

@@ -1,6 +1,5 @@
 package com.capstone.productavailability.ws_product.controllers.advices;
 
-import com.capstone.productavailability.ws_product.controllers.DepartmentController;
 import com.capstone.productavailability.ws_product.controllers.ProductController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
@@ -19,7 +18,7 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-@RestControllerAdvice(assignableTypes = {DepartmentController.class, ProductController.class})
+@RestControllerAdvice(assignableTypes = {ProductController.class})
 public class DepartmentControllerAdvice {
     @Autowired
     private Environment env;
